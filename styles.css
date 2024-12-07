@@ -1,0 +1,43 @@
+/* Dark mode background */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+h1 {
+    color: #f0e68c; /* Neon pastel yellow */
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Graph styling */
+#sales-line-chart, #sales-bar-chart, #region-sales-chart {
+    background-color: #2a2a2a; /* Dark gray background */
+    border-radius: 10px;
+}
+
+/* Title for each graph */
+h3 {
+    color: #ff79c6; /* Neon pink */
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Customize axis labels */
+.dash-line .main-svg {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f8f8f2; /* Light gray for axis labels */
+}
+
+/* Neon pastel accents */
+.line-chart-line, .bar-chart-bar, .pie-chart-slice {
+    stroke: #f9c7ff; /* Neon pastel pink */
+}
+
+/* Add some padding around content */
+div {
+    padding: 20px;
+}
